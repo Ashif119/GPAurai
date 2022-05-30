@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashif.gpaurai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gpaurai"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gpaurai"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GPAurai">
+        <activity
+            android:name="com.ashif.gpaurai.myprofile"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.reviewmgmt"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.enquirymgmt"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.usermgmt"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.ChangePassward"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.elxback"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.itback"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.csback"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashif.gpaurai.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GPAurai.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

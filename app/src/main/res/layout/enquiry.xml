@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="_Enquiry Here_"
+        android:textColor="#E64F4F50"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:id="@+id/txtname"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:inputType="textPersonName"
+                android:hint="Enter Your Name"/>
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:id="@+id/txtno"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:inputType="number"
+                android:hint="Enter Your Mobile Number"/>
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:id="@+id/txtemail"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="Enter Your Email Id"/>
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="315dp"
+                android:id="@+id/txtmsg"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_message_24"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:hint="Enter Your Message"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Enquiry Now"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rotate"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#fff"
+                android:id="@+id/btnenq"/>
+        </LinearLayout>
+    </ScrollView>
+        
+    
+
+</LinearLayout>

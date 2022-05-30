@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ashif.gpaurai.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.ashif.gpaurai.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.ashif.gpaurai.about"
+        android:label="About"
+        tools:layout="@layout/about" />
+    <fragment
+        android:id="@+id/nav_enquiry"
+        android:name="com.ashif.gpaurai.enquiry"
+        android:label="Enquiry"
+        tools:layout="@layout/enquiry" />
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.ashif.gpaurai.registration"
+        android:label="Registration"
+        tools:layout="@layout/registration" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.ashif.gpaurai.login"
+        android:label="Login"
+        tools:layout="@layout/login" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.ashif.gpaurai.share"
+        android:label="Share"
+        tools:layout="@layout/share" />
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.ashif.gpaurai.review"
+        android:label="Review"
+        tools:layout="@layout/review" />
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="com.ashif.gpaurai.faculty"
+        android:label="Faculty"
+        tools:layout="@layout/faculty" />
+
+</navigation>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="_About Us_"
+        android:textColor="#E64F4F50"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government Polytechnic Aurai located at Katehara,SR Nagar Bhadoghi 221301.Its a Government Institute Approved By:(AICTE) All India Council of Technical Education Affliated To : Uttar Pradesh Board of Technical Education.\nThe Institute established in 2010.In This time institute available for only 3 branches (CSE,IT,Elx).The other facilities included seprate hostels for boys and girls, extensive libraries,seminar hall,reading hall,outdoor and indoor sports grounds.Our College provides homely,healthy,vegetarian food for all hosteler students.\n
+Individual Focus on Student\n
+Experienced Faculty\nExcellent Placement Track Record\n100%
+Student Satisfaction"
+                android:typeface="serif"
+                android:textColor="#E64F4F50"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/gpaclg"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Government Polytechnic Aurai located at Katehara,SR Nagar Bhadoghi 221301.Its a Government Institute Approved By:(AICTE) All India Council of Technical Education Affliated To : Uttar Pradesh Board of Technical Education.\nThe Institute established in 2010.In This time institute available for only 3 branches (CSE,IT,Elx).The other facilities included seprate hostels for boys and girls, extensive libraries,seminar hall,reading hall,outdoor and indoor sports grounds.Our College provides homely,healthy,vegetarian food for all hosteler students.\n
+Individual Focus on Student\n
+Experienced Faculty\nExcellent Placement Track Record\n100%
+Student Satisfaction"
+                    android:textSize="15sp"
+                    android:textColor="#272424"/>
+                <com.ortiz.touchview.TouchImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/function"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Government Polytechnic Aurai located at Katehara,SR Nagar Bhadoghi 221301.Its a Government Institute Approved By:(AICTE) All India Council of Technical Education Affliated To : Uttar Pradesh Board of Technical Education.\nThe Institute established in 2010.In This time institute available for only 3 branches (CSE,IT,Elx).The other facilities included seprate hostels for boys and girls, extensive libraries,seminar hall,reading hall,outdoor and indoor sports grounds.Our College provides homely,healthy,vegetarian food for all hosteler students.\n
+Individual Focus on Student\n
+Experienced Faculty\nExcellent Placement Track Record\n100%
+Student Satisfaction"
+                        android:textSize="15sp"
+                        android:textColor="#272424"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/healthcheckup"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Institute has taken cognizance of current technological environment and industry demand. Accordingly, a host of co-curricular activities in technical field and personality development are planned like seminars, workshops, short programs, research work, innovation, paper presentation etc."
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#272424"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ff00"
+                        android:textStyle="bold"/>
+                    <View
+                        android:layout_width="150dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:background="#F30909"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goverment Polytechnic Aurai"
+                        android:textSize="20dp"
+                        android:padding="2dp"
+                        android:drawableLeft="@drawable/ic_baseline_add_business_24"
+                        android:layout_marginLeft="15dp"
+                        android:drawablePadding="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#042DA6"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Katehara,SR Nagar Bhadoghi 221301,(Uttar Pradesh)"
+                        android:textSize="15dp"
+                        android:padding="5dp"
+                        android:drawableLeft="@drawable/ic_baseline_home_24"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="#042DA6"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9876543213\n  +91 9876544324"
+                        android:textSize="15dp"
+                        android:padding="5dp"
+                        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="#042DA6"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="gpaurai@gmail.com"
+                        android:textSize="15dp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#042DA6"
+                        android:padding="5dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://gpaurai.ac.in/\n"
+                        android:textSize="15dp"
+                        android:padding="5dp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/ic_research_svgrepo_com"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#042DA6"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

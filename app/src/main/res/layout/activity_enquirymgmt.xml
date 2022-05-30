@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enquirymgmt"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="_Enquiry Managment_"
+        android:textColor="#E64F4F50"
+        android:background="#f46836"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtedata"
+                android:textSize="20sp"
+                android:textColor="#FF9800"/>
+<!--            <TableLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <TableRow>-->
+<!--                    <TextView-->
+<!--                        android:text="S.No"-->
+<!--                        android:textColor="#567"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                    <TextView-->
+<!--                        android:text="Name"-->
+<!--                        android:textColor="#567"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="10dp"/>-->
+<!--                    <TextView-->
+<!--                        android:text="Mobile No"-->
+<!--                        android:textColor="#567"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="10dp"/>-->
+<!--                    <TextView-->
+<!--                        android:text="Email Id"-->
+<!--                        android:textColor="#567"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="10dp"/>-->
+<!--                    <TextView-->
+<!--                        android:text="Messages"-->
+<!--                        android:textColor="#567"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginLeft="10dp"/>-->
+<!--                </TableRow>-->
+<!--            </TableLayout>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

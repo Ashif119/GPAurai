@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GP Aurai</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">My Profile</string>
+    <string name="declearation">I hereby declare that above information is correct to the best of my knowledge.</string>
+
+
+
+    <string name="education"><ul>
+        <li> DIPLOMA IN (C.S) from Government Polytechnic Aurai in 2020 with 78%</li></ul></string>
+    <string name="education1"><ul><li> 10+2 from Jumna Christian Inter college, Allahabad UP Board in 2016 with 67% </li></ul></string>
+    <string name="education2"><ul><li> 10<sup>th</sup> from Jumna Christian Inter college, Allahabad UP Board in 2014 with 69.9% </li></ul></string>
+    <string name="technical_skills"><ul><li>HTML And CSS</li></ul></string>
+    <string name="technical_skills1"><ul><li>JavaScript</li></ul></string>
+    <string name="technical_skills2"><ul><li>SQL</li></ul></string>
+  <string name="technical_skills3"><ul><li>Android with JAVA</li></ul></string>
+    <string name="Apprenticeship"><ul>
+        <li>6 month Apprenticeship on Android from Mecatredz Technology Pvt. Ltd</li>
+    </ul></string>
+    <string name="strangth"><ul><li>Hardworking</li></ul></string>
+    <string name="strangth1"><ul><li> Positive Attitude</li></ul></string>
+    <string name="strangth2"><ul><li>Self-Motive</li></ul></string>
+    <string name="strangth3"><ul><li>Dedication</li></ul></string>
+
+    <string name="personal"><b>NAME</b>                         : ASHIF AYUB QUADARI</string>
+    <string name="dob"><b>DATE OF BIRTH</b>       : 01/01/1999</string>
+
+    <string name="fname"><b>FATHER’S NAME</b>     : MR. MUSTAFA AHMAD</string>
+    <string name="indian"><b>NATIONALITY</b>         : INDIAN</string>
+    <string name="single"><b>MARITAL STATUS</b>  : SINGLE</string>
+    <string name="hobies"><b>HOBBIES</b>                  : Programming, Repairing Electronic Devices And Playing PC Game</string>
+
+
+
+    <string name="objective"><b>PROFILE SUMMARY:</b>I have good quality of communication and technical skills for the improvement of the company and app development skills. </string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about">About</string>
+    <string name="gallery">_Gallery_</string>
+</resources>
